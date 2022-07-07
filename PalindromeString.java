@@ -2,19 +2,16 @@ class PalindromeString{
 
    public static void main(String args[]){
 
-         String s="kayak";
-          boolean c=true;
-           for(int i=0;i<s.length()/2;i++){
-
-                      if(s.charAt(i)!=s.charAt(s.length()-1-i)){
-
-                        c=false;
-                        break;
-                     }
-           }
-             if(c==true){
-                 System.out.print("P");
-            }else{System.out.print("N P");}
+         String s1="Good";
+         String s2="Morning";
+            
+            s1=s1+s2;
+           s2=s1.substring(0,s1.length()-s2.length());
+            s1=s1.substring(s2.length());
+               System.out.println(s1);
+                 System.out.print(s2);
+         
+         
   }
 
 }
