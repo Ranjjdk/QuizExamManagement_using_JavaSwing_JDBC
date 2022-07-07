@@ -2,7 +2,7 @@ class PalindromeString{
 
    public static void main(String args[]){
 
-         String s="Ranjet";
+         String s="kayak";
           boolean c=true;
            for(int i=0;i<s.length()/2;i++){
 
